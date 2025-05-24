@@ -1,0 +1,15 @@
+defaults:
+  - ljspeech
+  - _self_
+
+_target_: matcha.data.text_mel_datamodule.TextMelDataModule
+name: vctk
+train_filelist_path: data/VCTK/vctk_audio_sid_text_train_filelist.txt
+valid_filelist_path: data/VCTK/vctk_audio_sid_text_val_filelist.txt
+batch_size: 64
+num_workers: 8
+add_blank: True
+n_spks: 109
+data_statistics:  # Computed for vctk dataset
+  mel_mean: 0.0 
+  mel_std: 1.0

@@ -1,11 +1,52 @@
 # Shallow Flow Matching
-Official implementation of paper: Shallow Flow Matching for Coarse-to-Fine Text-to-Speech Synthesis
+Official implementation of paper: Shallow Flow Matching for Coarse-to-Fine Text-to-Speech Synthesis \
+(updating)
 
-# Environment
+## Environment
 We use python=3.10. \
-An simple way for building the environment of Matcha-TTS-sfm and StableTTS-sfm:
+A simple way for building the environment of Matcha-TTS-sfm and StableTTS-sfm:
 ```bash
 pip install matcha-tts
 pip uninstall matcha-tts
 pip install transformers vocos torchdiffeq matplotlib==3.9.3
+```
+Please continue to read the README.md in each model's folder.
+
+## Modifications and implementations
+1. Directory and file paths are replaced with placeholders (`xxx`).
+2. We use the ODE solvers from `torchdiffeq` in this open-source version to make it easy to try different solvers.
+- For fixed-step solvers, the number of steps is predefined by `n_timesteps`. 
+- For adaptive-step solvers, the number of steps is dynamically determined by `rtol` and `atol` in the flow modules, which are defaultly set to 1e-5, the same with the settings in StableTTS. `n_timesteps` just determines the size of output trajectory.
+3. We reorganize and simplify the code. If you encounter any problems, please open an issue.
+
+## Citation
+```bibtex
+@article{sfm,
+ author    = {Dong Yang and Yiyi Cai and Yuki Saito and Lixu Wang and Hiroshi Saruwatari},
+ title     = {Shallow Flow Matching for Coarse-to-Fine Text-to-Speech Synthesis},
+ year      = {2025},
+ journal   = {arXiv preprint arXiv:2505.12226},
+}
+
+@inproceedings{matcha-tts,
+ author    = {Shivam Mehta and Ruibo Tu and Jonas Beskow and {\'{E}}va Sz{\'{e}}kely and Gustav Eje Henter},
+ title     = {{Matcha-TTS}: {A} Fast {TTS} Architecture with Conditional Flow Matching},
+ year      = {2024},
+ pages     = {11341--11345},
+ booktitle = {{IEEE} International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+}
+
+@misc{stableTTS,
+ author    = {},
+ title     = {{StableTTS}},
+ year      = {2024},
+ howpublished = {\url{https://github.com/KdaiP/StableTTS}}
+}
+
+@article{cosyvoice,
+ author    = {Zhihao Du and Qian Chen and Shiliang Zhang and Kai Hu and Heng Lu and Yexin Yang and Hangrui Hu and Siqi Zheng and Yue Gu and Ziyang Ma and Zhifu Gao and Zhijie Yan},
+ title     = {{CosyVoice}: {A} Scalable Multilingual Zero-shot Text-to-speech Synthesizer based on Supervised Semantic Tokens},
+ year      = {2024},
+ journal   = {arXiv preprint arXiv:2407.05407},
+}
 ```

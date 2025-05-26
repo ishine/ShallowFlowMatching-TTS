@@ -1,4 +1,4 @@
-# Shallow Flow Matching (TTS)
+# Shallow Flow Matching
 Official implementation of the paper: Shallow Flow Matching for Coarse-to-Fine Text-to-Speech Synthesis \
 (updating)
 

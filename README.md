@@ -1,5 +1,5 @@
-# Shallow Flow Matching
-Official implementation of paper: Shallow Flow Matching for Coarse-to-Fine Text-to-Speech Synthesis \
+# Shallow Flow Matching (TTS)
+Official implementation of the paper: Shallow Flow Matching for Coarse-to-Fine Text-to-Speech Synthesis \
 (updating)
 
 ## Environment
@@ -10,6 +10,11 @@ pip install matcha-tts
 pip uninstall matcha-tts
 pip install transformers vocos torchdiffeq matplotlib==3.9.3
 ```
+The above is for Matcha-TTS. \
+For StableTTS (only support English), please continue:
+```bash
+pip install eng_to_ipa 
+```
 Please continue to read the README.md in each model's folder.
 
 ## Modifications and implementations
@@ -17,7 +22,7 @@ Please continue to read the README.md in each model's folder.
 2. We use the ODE solvers from `torchdiffeq` in this open-source version to make it easy to try different solvers.
 - For fixed-step solvers, the number of steps is predefined by `n_timesteps`. 
 - For adaptive-step solvers, the number of steps is dynamically determined by `rtol` and `atol` in the flow modules, which are defaultly set to 1e-5, the same with the settings in StableTTS. `n_timesteps` just determines the size of output trajectory.
-3. We reorganize and simplify the code. If you encounter any problems, please open an issue.
+3. We have reorganized and simplified the code, and optimized variable notation. If you encounter any problems, please open an issue.
 
 ## Citation
 ```bibtex

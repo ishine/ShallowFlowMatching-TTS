@@ -1,0 +1,100 @@
+xxx/VCTK-Corpus/wav22050/p364/p364_240.wav|88|It had happened to him.
+xxx/VCTK-Corpus/wav22050/p280/p280_148.wav|52|It is open season on the Old Firm.
+xxx/VCTK-Corpus/wav22050/p231/p231_320.wav|50|However, he is a coach, and he remains a coach at heart.
+xxx/VCTK-Corpus/wav22050/p282/p282_129.wav|83|It is not a U-turn.
+xxx/VCTK-Corpus/wav22050/p254/p254_015.wav|41|The Greeks used to imagine that it was a sign from the gods to foretell war or heavy rain.
+xxx/VCTK-Corpus/wav22050/p228/p228_285.wav|57|The songs are just so good.
+xxx/VCTK-Corpus/wav22050/p334/p334_307.wav|38|If they don't, they can expect their funding to be cut.
+xxx/VCTK-Corpus/wav22050/p287/p287_081.wav|77|I've never seen anything like it.
+xxx/VCTK-Corpus/wav22050/p247/p247_083.wav|14|It is a job creation scheme.)
+xxx/VCTK-Corpus/wav22050/p264/p264_051.wav|65|We were leading by two goals.)
+xxx/VCTK-Corpus/wav22050/p335/p335_058.wav|49|Let's see that increase over the years.
+xxx/VCTK-Corpus/wav22050/p236/p236_225.wav|75|There is no quick fix.
+xxx/VCTK-Corpus/wav22050/p374/p374_353.wav|11|And that brings us to the point.
+xxx/VCTK-Corpus/wav22050/p272/p272_076.wav|69|Sounds like The Sixth Sense?
+xxx/VCTK-Corpus/wav22050/p271/p271_152.wav|27|The petition was formally presented at Downing Street yesterday.
+xxx/VCTK-Corpus/wav22050/p228/p228_127.wav|57|They've got to account for it.
+xxx/VCTK-Corpus/wav22050/p276/p276_223.wav|106|It's been a humbling year.
+xxx/VCTK-Corpus/wav22050/p262/p262_248.wav|45|The project has already secured the support of Sir Sean Connery.
+xxx/VCTK-Corpus/wav22050/p314/p314_086.wav|51|The team this year is going places.
+xxx/VCTK-Corpus/wav22050/p225/p225_038.wav|101|Diving is no part of football.
+xxx/VCTK-Corpus/wav22050/p279/p279_088.wav|25|The shareholders will vote to wind up the company on Friday morning.
+xxx/VCTK-Corpus/wav22050/p272/p272_018.wav|69|Aristotle thought that the rainbow was caused by reflection of the sun's rays by the rain.
+xxx/VCTK-Corpus/wav22050/p256/p256_098.wav|90|She told The Herald.
+xxx/VCTK-Corpus/wav22050/p261/p261_218.wav|100|All will be revealed in due course.
+xxx/VCTK-Corpus/wav22050/p265/p265_063.wav|73|IT shouldn't come as a surprise, but it does.
+xxx/VCTK-Corpus/wav22050/p314/p314_042.wav|51|It is all about people being assaulted, abused.
+xxx/VCTK-Corpus/wav22050/p241/p241_188.wav|86|I wish I could say something.
+xxx/VCTK-Corpus/wav22050/p283/p283_111.wav|95|It's good to have a voice.
+xxx/VCTK-Corpus/wav22050/p275/p275_006.wav|40|When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow.
+xxx/VCTK-Corpus/wav22050/p228/p228_092.wav|57|Today I couldn't run on it.
+xxx/VCTK-Corpus/wav22050/p295/p295_343.wav|92|The atmosphere is businesslike.
+xxx/VCTK-Corpus/wav22050/p228/p228_187.wav|57|They will run a mile.
+xxx/VCTK-Corpus/wav22050/p294/p294_317.wav|104|It didn't put me off.
+xxx/VCTK-Corpus/wav22050/p231/p231_445.wav|50|It sounded like a bomb.
+xxx/VCTK-Corpus/wav22050/p272/p272_086.wav|69|Today she has been released.
+xxx/VCTK-Corpus/wav22050/p255/p255_210.wav|31|It was worth a photograph.
+xxx/VCTK-Corpus/wav22050/p229/p229_060.wav|67|And a film maker was born.
+xxx/VCTK-Corpus/wav22050/p260/p260_232.wav|81|The Home Office would not release any further details about the group.
+xxx/VCTK-Corpus/wav22050/p245/p245_025.wav|59|Johnson was pretty low.
+xxx/VCTK-Corpus/wav22050/p333/p333_185.wav|64|This area is perfect for children.
+xxx/VCTK-Corpus/wav22050/p244/p244_242.wav|78|He is a man of the people.
+xxx/VCTK-Corpus/wav22050/p376/p376_187.wav|71|"It is a terrible loss."
+xxx/VCTK-Corpus/wav22050/p239/p239_156.wav|48|It is a good lifestyle.
+xxx/VCTK-Corpus/wav22050/p307/p307_037.wav|22|He released a half-dozen solo albums.
+xxx/VCTK-Corpus/wav22050/p305/p305_185.wav|54|I am not even thinking about that.
+xxx/VCTK-Corpus/wav22050/p272/p272_081.wav|69|It was magic.
+xxx/VCTK-Corpus/wav22050/p302/p302_297.wav|30|I'm trying to stay open on that.
+xxx/VCTK-Corpus/wav22050/p275/p275_320.wav|40|We are in the end game.
+xxx/VCTK-Corpus/wav22050/p239/p239_231.wav|48|Then we will face the Danish champions.
+xxx/VCTK-Corpus/wav22050/p268/p268_301.wav|87|It was only later that the condition was diagnosed.
+xxx/VCTK-Corpus/wav22050/p336/p336_088.wav|98|They failed to reach agreement yesterday.
+xxx/VCTK-Corpus/wav22050/p278/p278_255.wav|10|They made such decisions in London.
+xxx/VCTK-Corpus/wav22050/p361/p361_132.wav|79|That got me out.
+xxx/VCTK-Corpus/wav22050/p307/p307_146.wav|22|You hope he prevails.
+xxx/VCTK-Corpus/wav22050/p244/p244_147.wav|78|They could not ignore the will of parliament, he claimed.
+xxx/VCTK-Corpus/wav22050/p294/p294_283.wav|104|This is our unfinished business.
+xxx/VCTK-Corpus/wav22050/p283/p283_300.wav|95|I would have the hammer in the crowd.
+xxx/VCTK-Corpus/wav22050/p239/p239_079.wav|48|I can understand the frustrations of our fans.
+xxx/VCTK-Corpus/wav22050/p264/p264_009.wav|65|There is , according to legend, a boiling pot of gold at one end. )
+xxx/VCTK-Corpus/wav22050/p307/p307_348.wav|22|He did not oppose the divorce.
+xxx/VCTK-Corpus/wav22050/p304/p304_308.wav|72|We are the gateway to justice.
+xxx/VCTK-Corpus/wav22050/p281/p281_056.wav|36|None has ever been found.
+xxx/VCTK-Corpus/wav22050/p267/p267_158.wav|0|We were given a warm and friendly reception.
+xxx/VCTK-Corpus/wav22050/p300/p300_169.wav|102|Who do these people think they are?
+xxx/VCTK-Corpus/wav22050/p276/p276_177.wav|106|They exist in name alone.
+xxx/VCTK-Corpus/wav22050/p228/p228_245.wav|57|It is a policy which has the full support of the minister.
+xxx/VCTK-Corpus/wav22050/p300/p300_303.wav|102|I'm wondering what you feel about the youngest.
+xxx/VCTK-Corpus/wav22050/p362/p362_247.wav|15|This would give Scotland around eight members.
+xxx/VCTK-Corpus/wav22050/p326/p326_031.wav|28|United were in control without always being dominant.
+xxx/VCTK-Corpus/wav22050/p361/p361_288.wav|79|I did not think it was very proper.
+xxx/VCTK-Corpus/wav22050/p286/p286_145.wav|63|Tiger is not the norm.
+xxx/VCTK-Corpus/wav22050/p234/p234_071.wav|3|She did that for the rest of her life.
+xxx/VCTK-Corpus/wav22050/p263/p263_296.wav|39|The decision was announced at its annual conference in Dunfermline.
+xxx/VCTK-Corpus/wav22050/p323/p323_228.wav|34|She became a heroine of my childhood.
+xxx/VCTK-Corpus/wav22050/p280/p280_346.wav|52|It was a bit like having children.
+xxx/VCTK-Corpus/wav22050/p333/p333_080.wav|64|But the tragedy did not stop there.
+xxx/VCTK-Corpus/wav22050/p226/p226_268.wav|43|That decision is for the British Parliament and people.
+xxx/VCTK-Corpus/wav22050/p362/p362_314.wav|15|Is that right?
+xxx/VCTK-Corpus/wav22050/p240/p240_047.wav|93|It is so sad.
+xxx/VCTK-Corpus/wav22050/p250/p250_207.wav|24|You could feel the heat.
+xxx/VCTK-Corpus/wav22050/p273/p273_176.wav|56|Neither side would reveal the details of the offer.
+xxx/VCTK-Corpus/wav22050/p316/p316_147.wav|85|And frankly, it's been a while.
+xxx/VCTK-Corpus/wav22050/p265/p265_047.wav|73|It is unique.
+xxx/VCTK-Corpus/wav22050/p336/p336_353.wav|98|Sometimes you get them, sometimes you don't.
+xxx/VCTK-Corpus/wav22050/p230/p230_376.wav|35|This hasn't happened in a vacuum.
+xxx/VCTK-Corpus/wav22050/p308/p308_209.wav|107|There is great potential on this river.
+xxx/VCTK-Corpus/wav22050/p250/p250_442.wav|24|We have not yet received a letter from the Irish.
+xxx/VCTK-Corpus/wav22050/p260/p260_037.wav|81|It's a fact.
+xxx/VCTK-Corpus/wav22050/p299/p299_345.wav|58|We're very excited and challenged by the project.
+xxx/VCTK-Corpus/wav22050/p269/p269_218.wav|94|A Grampian Police spokesman said.
+xxx/VCTK-Corpus/wav22050/p306/p306_014.wav|12|To the Hebrews it was a token that there would be no more universal floods.
+xxx/VCTK-Corpus/wav22050/p271/p271_292.wav|27|It's a record label, not a form of music.
+xxx/VCTK-Corpus/wav22050/p247/p247_225.wav|14|I am considered a teenager.)
+xxx/VCTK-Corpus/wav22050/p294/p294_094.wav|104|It should be a condition of employment.
+xxx/VCTK-Corpus/wav22050/p269/p269_031.wav|94|Is this accurate?
+xxx/VCTK-Corpus/wav22050/p275/p275_116.wav|40|It's not fair.
+xxx/VCTK-Corpus/wav22050/p265/p265_006.wav|73|When the sunlight strikes raindrops in the air, they act as a prism and form a rainbow.
+xxx/VCTK-Corpus/wav22050/p285/p285_072.wav|2|Mr Irvine said Mr Rafferty was now in good spirits.
+xxx/VCTK-Corpus/wav22050/p270/p270_167.wav|8|We did what we had to do.
+xxx/VCTK-Corpus/wav22050/p360/p360_397.wav|60|It is a relief.

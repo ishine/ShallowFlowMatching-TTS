@@ -14,16 +14,17 @@ Then use the inference script `inference.ipynb`.
 
 ## Training
 1. Change the paths in the txt files of the `data` folder.
-2. Extract mels
+2. Extract mels:
 ```bash
 python preprocess.py
 ```
 Then you can obtain the `VCTK` folder and `filelists/vctk.json`.
-2. Start the training with single GPU:
+
+3. Start the training with single GPU:
 ```bash
 python train.py
 ```
-3. We use 2-node (1 GPU in each node) training with `mpirun`:
+4. We use 2-node (1 GPU in each node) training with `mpirun`:
 ```bash
 export MASTER_ADDR=your_MASTER_ADDR
 export MASTER_PORT=12345

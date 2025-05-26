@@ -15,6 +15,7 @@ For StableTTS (only support English), please continue:
 ```bash
 pip install eng_to_ipa 
 ```
+We use the [Open MPI](https://docs.open-mpi.org) for multi-node training. \
 Please continue to read the README.md in each model's folder.
 
 ## Modifications and implementations

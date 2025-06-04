@@ -8,7 +8,7 @@
 ## Inference
 For quick inference, you can download our pre-trained weights:
 ```bash
-wget https://huggingface.co/ydqmkkx/SFM-models/resolve/main/StableTTS-sfm-vctk.pt?download=true
+wget https://huggingface.co/ydqmkkx/SFM-models/resolve/main/StableTTS-sfm-vctk.pt
 ```
 Then use the inference script `inference.ipynb`.
 

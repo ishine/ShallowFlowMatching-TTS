@@ -90,7 +90,7 @@ def train():
             
         if rank == 0 and (epoch+1) % train_config.save_interval_epoch == 0:
             torch.save({
-                'model': model.module.state_dict(),
+                'model': model.state_dict(),
                 #'optimizer': optimizer.state_dict(),
                 #'scaler': scaler.state_dict()
             }, os.path.join(train_config.model_save_path, f'checkpoint_{epoch}.pt'))

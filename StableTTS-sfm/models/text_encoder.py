@@ -98,7 +98,7 @@ class TextEncoder(nn.Module):
 
         return x, mu_x, x_mask
 
-    def forward_smooth(self, x, c, x_mask):
+    def forward_smooth(self, x, x_mask):
         x = self.prenet(x * x_mask)
         mu = self.proj_sfm(x) * x_mask
 

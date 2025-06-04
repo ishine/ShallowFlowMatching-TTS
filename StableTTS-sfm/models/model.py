@@ -99,7 +99,7 @@ class StableTTS(nn.Module):
         mu_y = mu_y.transpose(1, 2)
         x = torch.matmul(attn.squeeze(1).transpose(1, 2), x.transpose(1, 2))
         x = x.transpose(1, 2)
-        mu_y, sfm_params = self.encoder.forward_smooth(x, c, y_mask)
+        mu_y, sfm_params = self.encoder.forward_smooth(x, y_mask)
         encoder_outputs = mu_y[:, :, :y_max_length]
 
         # Generate sample tracing the probability flow
@@ -152,7 +152,7 @@ class StableTTS(nn.Module):
 
         x = torch.matmul(attn.squeeze(1).transpose(1, 2), x.transpose(1, 2))
         x = x.transpose(1, 2)
-        mu_y, sfm_params = self.encoder.forward_smooth(x, c, y_mask)
+        mu_y, sfm_params = self.encoder.forward_smooth(x, y_mask)
 
         # Compute loss of the decoder
         c = c * cfg_mask + ~cfg_mask * self.fake_speaker.repeat(c.size(0), 1)

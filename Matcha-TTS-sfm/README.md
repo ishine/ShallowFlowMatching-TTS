@@ -11,8 +11,8 @@
 For quick inference, you can download our pre-trained weights:
 ```bash
 cd logs
-wget https://huggingface.co/ydqmkkx/SFM-models/resolve/main/MatchaTTS-sfm-ljspeech.ckpt?download=true
-wget https://huggingface.co/ydqmkkx/SFM-models/resolve/main/MatchaTTS-sfm-vctk.ckpt?download=true
+wget https://huggingface.co/ydqmkkx/SFM-models/resolve/main/MatchaTTS-sfm-ljspeech.ckpt
+wget https://huggingface.co/ydqmkkx/SFM-models/resolve/main/MatchaTTS-sfm-vctk.ckpt
 ```
 Then use the inference script `synthesis.ipynb`.
 

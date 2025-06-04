@@ -28,7 +28,16 @@ def continue_training(checkpoint_path, model: DDP, optimizer: optim.Optimizer) -
         optimizer_path = os.path.join(checkpoint_path, optimizer_dict[max_epoch])
         
         # load model and optimizer
-        model.module.load_state_dict(torch.load(model_path, map_location='cpu'))
+        state_dict = torch.load(model_path, map_location='cpu')
+        try:
+            model.load_state_dict(state_dict)
+        except:
+            try:
+                print("Loading into model failed, try loading into model.module...")
+                model.module.load_state_dict(state_dict)
+            except:
+                raise RuntimeError("Both model and model.module failed to load. Stop continuing training.")
+                
         optimizer.load_state_dict(torch.load(optimizer_path, map_location='cpu'))
         
         print(f'resume model and optimizer from {max_epoch} epoch')

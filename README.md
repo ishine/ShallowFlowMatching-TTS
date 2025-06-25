@@ -3,28 +3,30 @@ Official implementation of the paper: Shallow Flow Matching for Coarse-to-Fine T
 (updating)
 
 ## Environment
-We use python=3.10. \
-A simple way for building the environment of Matcha-TTS-sfm, StableTTS-sfm, and CosyVoice-DiT-sfm:
+1. We use python=3.10.
+2. A simple way for building the environment of Matcha-TTS-sfm, StableTTS-sfm, and CosyVoice-DiT-sfm:
+- For Matcha-TTS
 ```bash
 pip install matcha-tts
 pip uninstall matcha-tts
 pip install transformers vocos torchdiffeq matplotlib==3.9.3
 ```
-The above is for Matcha-TTS. \
-For StableTTS (only support English) and CosyVoice-DiT-sfm, please continue:
+- For StableTTS (only support English) and CosyVoice-DiT-sfm, please continue
 ```bash
 pip install eng_to_ipa 
 ```
-We use the [Open MPI](https://docs.open-mpi.org) for multi-node training. \
-Please continue to read the README.md in each model's folder.
+- For CosyVoice-sfm, not the above but the official guidance is needed. Please check the README.md in its folder,
+3. We use the [Open MPI](https://docs.open-mpi.org) for multi-node training.
+4. Please continue to read the README.md in each model's folder.
 
 ## Modifications and implementations
-1. Directory and file paths are replaced with placeholders (`xxx`).
-2. We use the ODE solvers from `torchdiffeq` in this open-source version to make it easy to try different solvers.
+1. We use the ODE solvers from `torchdiffeq` in this open-source version to make it easy to try different solvers.
 - For fixed-step solvers, the number of steps is predefined by `n_timesteps`. 
 - For adaptive-step solvers, the number of steps is dynamically determined by `rtol` and `atol` in the flow modules, which are defaultly set to 1e-5, the same with the settings in StableTTS. `n_timesteps` just determines the size of output trajectory.
+2. Directory and file paths are replaced with placeholders (`xxx`).
 3. We have reorganized and simplified the code, and optimized variable notation. If you encounter any problems, please open an issue.
 4. In the code, the `sigma` except `sigma_min` is the variance (σ²) but not the std (σ).
+5. For the DDP training of CosyVoice, we have changed the code for training to solve several problems.
 
 ## Cross-sentence evaluation
 We offer the necessary files of cross-sentence evaluations in `libritts-cross_sentence-infer`.

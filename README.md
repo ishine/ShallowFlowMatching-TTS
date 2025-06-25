@@ -1,6 +1,8 @@
 # Shallow Flow Matching
 Official implementation of the paper: Shallow Flow Matching for Coarse-to-Fine Text-to-Speech Synthesis \
-(updating)
+(updating) \
+<a href='https://arxiv.org/abs/2505.12226'><img src='https://img.shields.io/badge/arXiv-red'></a>
+<a href='https://ydqmkkx.github.io/SFMDemo/'><img src='https://img.shields.io/badge/Demo-blue'></a>
 
 ## Environment
 1. We use python=3.10.

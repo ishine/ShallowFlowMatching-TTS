@@ -17,7 +17,7 @@ pip install transformers vocos torchdiffeq matplotlib==3.9.3
 ```bash
 pip install eng_to_ipa 
 ```
-- For CosyVoice-sfm, not the above but the official guidance is needed. Please check the README.md in its folder,
+- For CosyVoice-sfm, not the above but the official guidance is needed. Please check the README.md in its folder.
 3. We use the [Open MPI](https://docs.open-mpi.org) for multi-node training.
 4. Please continue to read the README.md in each model's folder.
 

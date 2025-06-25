@@ -8,12 +8,12 @@ import sys
 sys.path.append('third_party/Matcha-TTS')
 ```
 in the [CosyVoice implementation](https://github.com/FunAudioLLM/CosyVoice?tab=readme-ov-file#basic-usage), installing the official Matcha-TTS package directly is more convenient:
-```python
+```bash
 pip install matcha-tts
 ```
 Please note that this will update the version of Pytorch. You may need to install Pytorch again with the version that CosyVoice uses. \
 Then,
-```python
+```bash
 pip install torchdiffeq
 ```
 

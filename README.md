@@ -1,6 +1,6 @@
 # Shallow Flow Matching
-Official implementation of the paper: Shallow Flow Matching for Coarse-to-Fine Text-to-Speech Synthesis \
-(updating) \
+Official PyTorch implementation of the paper: Shallow Flow Matching for Coarse-to-Fine Text-to-Speech Synthesis \
+(🎉 The paper has been accepted by NeurIPS 2025 🎉) \
 <a href='https://arxiv.org/abs/2505.12226'><img src='https://img.shields.io/badge/arXiv-red'></a>
 <a href='https://ydqmkkx.github.io/SFMDemo/'><img src='https://img.shields.io/badge/Demo-blue'></a>
 
@@ -41,7 +41,7 @@ We offer the necessary files of cross-sentence evaluations in `libritts-cross_se
  author    = {Dong Yang and Yiyi Cai and Yuki Saito and Lixu Wang and Hiroshi Saruwatari},
  title     = {Shallow Flow Matching for Coarse-to-Fine Text-to-Speech Synthesis},
  year      = {2025},
- journal   = {arXiv preprint arXiv:2505.12226},
+ journal   = {Annual Conference on Neural Information Processing Systems (NeurIPS)},
 }
 
 @inproceedings{matcha-tts,
